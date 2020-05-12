@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB2D12C3246AA547001D4C31 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D12C2246AA547001D4C31 /* main.cpp */; };
+		CB2D12CF246AA559001D4C31 /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D12CA246AA559001D4C31 /* board.cpp */; };
+		CB2D12D0246AA559001D4C31 /* mydevices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D12CB246AA559001D4C31 /* mydevices.cpp */; };
+		CB2D12D1246AA559001D4C31 /* core_simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D12CC246AA559001D4C31 /* core_simulation.cpp */; };
+		CB2D12D2246AA559001D4C31 /* sketch_ino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB2D12CE246AA559001D4C31 /* sketch_ino.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,12 @@
 
 /* Begin PBXFileReference section */
 		CB2D12BF246AA547001D4C31 /* BE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BE; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB2D12C2246AA547001D4C31 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CB2D12C9246AA559001D4C31 /* core_simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core_simulation.h; path = ../../src/core_simulation.h; sourceTree = "<group>"; };
+		CB2D12CA246AA559001D4C31 /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = board.cpp; path = ../../src/board.cpp; sourceTree = "<group>"; };
+		CB2D12CB246AA559001D4C31 /* mydevices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mydevices.cpp; path = ../../src/mydevices.cpp; sourceTree = "<group>"; };
+		CB2D12CC246AA559001D4C31 /* core_simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = core_simulation.cpp; path = ../../src/core_simulation.cpp; sourceTree = "<group>"; };
+		CB2D12CD246AA559001D4C31 /* mydevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mydevices.h; path = ../../src/mydevices.h; sourceTree = "<group>"; };
+		CB2D12CE246AA559001D4C31 /* sketch_ino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sketch_ino.cpp; path = ../../src/sketch_ino.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,12 @@
 		CB2D12C1246AA547001D4C31 /* BE */ = {
 			isa = PBXGroup;
 			children = (
-				CB2D12C2246AA547001D4C31 /* main.cpp */,
+				CB2D12CA246AA559001D4C31 /* board.cpp */,
+				CB2D12CC246AA559001D4C31 /* core_simulation.cpp */,
+				CB2D12C9246AA559001D4C31 /* core_simulation.h */,
+				CB2D12CB246AA559001D4C31 /* mydevices.cpp */,
+				CB2D12CD246AA559001D4C31 /* mydevices.h */,
+				CB2D12CE246AA559001D4C31 /* sketch_ino.cpp */,
 			);
 			path = BE;
 			sourceTree = "<group>";
@@ -119,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2D12C3246AA547001D4C31 /* main.cpp in Sources */,
+				CB2D12CF246AA559001D4C31 /* board.cpp in Sources */,
+				CB2D12D1246AA559001D4C31 /* core_simulation.cpp in Sources */,
+				CB2D12D2246AA559001D4C31 /* sketch_ino.cpp in Sources */,
+				CB2D12D0246AA559001D4C31 /* mydevices.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
