@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <string.h>
 #include "core_simulation.h"
+#include <fstream>
 
 // exemple de capteur analogique de temperature, ne pas oublier d'heriter de Device
 class AnalogSensorTemperature: public Device {
@@ -68,6 +69,23 @@ public:
     virtual void run();
 };
 
+class IntelligentDigitalActuatorLED : public Device{
+private:
+    int state;
+    int temps;
+      
+public:
+    IntelligentDigitalActuatorLED(int t);
+    virtual void run();
+};
 
+class ExternalDigitalSensorButton : public Device{
+private:
+    int state;
+    int temps;
+public:
+    ExternalDigitalSensorButton(int t);
+    virtual void run();
+};
 
 #endif
