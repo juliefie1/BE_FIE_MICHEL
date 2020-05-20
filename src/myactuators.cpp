@@ -1,5 +1,5 @@
 
-#include "mydevices.h"
+#include "myactuators.h"
 static volatile int luminosite_environnement = 200;
 
 using namespace std;
@@ -103,3 +103,5 @@ void ExternalDigitalSensorButton::run(){
         sleep(temps);
     }
 }
+
+

@@ -10,7 +10,8 @@
 		CBFEFBC9246C2D9500FA50AA /* sketch_ino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFBC4246C2D9400FA50AA /* sketch_ino.cpp */; };
 		CBFEFBCA246C2D9500FA50AA /* core_simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFBC5246C2D9400FA50AA /* core_simulation.cpp */; };
 		CBFEFBCB246C2D9500FA50AA /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFBC6246C2D9400FA50AA /* board.cpp */; };
-		CBFEFBCC246C2D9500FA50AA /* mydevices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFBC7246C2D9500FA50AA /* mydevices.cpp */; };
+		CBFEFBCC246C2D9500FA50AA /* myactuators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFBC7246C2D9500FA50AA /* myactuators.cpp */; };
+		CBFEFBD0247520C800FA50AA /* mysensors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBFEFBCE247520C700FA50AA /* mysensors.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +28,14 @@
 
 /* Begin PBXFileReference section */
 		CBFEFBB9246C2D8300FA50AA /* BE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BE; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBFEFBC3246C2D9400FA50AA /* mydevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mydevices.h; path = ../../src/mydevices.h; sourceTree = "<group>"; };
+		CBFEFBC3246C2D9400FA50AA /* myactuators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myactuators.h; path = ../../src/myactuators.h; sourceTree = "<group>"; };
 		CBFEFBC4246C2D9400FA50AA /* sketch_ino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sketch_ino.cpp; path = ../../src/sketch_ino.cpp; sourceTree = "<group>"; };
 		CBFEFBC5246C2D9400FA50AA /* core_simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = core_simulation.cpp; path = ../../src/core_simulation.cpp; sourceTree = "<group>"; };
 		CBFEFBC6246C2D9400FA50AA /* board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = board.cpp; path = ../../src/board.cpp; sourceTree = "<group>"; };
-		CBFEFBC7246C2D9500FA50AA /* mydevices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mydevices.cpp; path = ../../src/mydevices.cpp; sourceTree = "<group>"; };
+		CBFEFBC7246C2D9500FA50AA /* myactuators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = myactuators.cpp; path = ../../src/myactuators.cpp; sourceTree = "<group>"; };
 		CBFEFBC8246C2D9500FA50AA /* core_simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core_simulation.h; path = ../../src/core_simulation.h; sourceTree = "<group>"; };
+		CBFEFBCE247520C700FA50AA /* mysensors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mysensors.cpp; sourceTree = "<group>"; };
+		CBFEFBCF247520C800FA50AA /* mysensors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mysensors.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +71,10 @@
 				CBFEFBC6246C2D9400FA50AA /* board.cpp */,
 				CBFEFBC5246C2D9400FA50AA /* core_simulation.cpp */,
 				CBFEFBC8246C2D9500FA50AA /* core_simulation.h */,
-				CBFEFBC7246C2D9500FA50AA /* mydevices.cpp */,
-				CBFEFBC3246C2D9400FA50AA /* mydevices.h */,
+				CBFEFBC7246C2D9500FA50AA /* myactuators.cpp */,
+				CBFEFBC3246C2D9400FA50AA /* myactuators.h */,
+				CBFEFBCE247520C700FA50AA /* mysensors.cpp */,
+				CBFEFBCF247520C800FA50AA /* mysensors.hpp */,
 				CBFEFBC4246C2D9400FA50AA /* sketch_ino.cpp */,
 			);
 			path = BE;
@@ -133,8 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFEFBC9246C2D9500FA50AA /* sketch_ino.cpp in Sources */,
-				CBFEFBCC246C2D9500FA50AA /* mydevices.cpp in Sources */,
+				CBFEFBCC246C2D9500FA50AA /* myactuators.cpp in Sources */,
 				CBFEFBCB246C2D9500FA50AA /* board.cpp in Sources */,
+				CBFEFBD0247520C800FA50AA /* mysensors.cpp in Sources */,
 				CBFEFBCA246C2D9500FA50AA /* core_simulation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
